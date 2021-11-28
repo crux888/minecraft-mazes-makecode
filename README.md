@@ -19,10 +19,10 @@ I created this code for my two kids who loving playing with Minecraft and coding
 
 ## What mazes can I make with the code?
 
-- A simple maze with [n] rows x [n] columns
-- A tower maze with [n] rows x [n] columns x [n] layers
-- A pyramid maze with [n] layers
-- A diamond maze with [n] layers
+- A **simple maze** with [n] rows x [n] columns
+- A **tower maze** with [n] rows x [n] columns x [n] layers
+- A **pyramid maze** with [n] layers
+- A **diamond maze** with [n] layers
 
 ![Minecraft mazes](https://user-images.githubusercontent.com/88885429/143773500-601975f3-614e-4493-b8c2-215c22fa4bd4.png)
 
