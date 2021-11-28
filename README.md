@@ -13,7 +13,7 @@ I created this code for my two kids who loving playing with Minecraft and coding
 
 ### Notes
 - This code can be used with [Minecraft Education Edition](https://minecraft.makecode.com/setup/minecraft-education-edition) or [Minecraft for Windows 10](https://minecraft.makecode.com/setup/minecraft-windows10).
-- If you're looking for a Python version of this code, don't worry... it's coming soon!
+- If you're looking for a Minecraft Python version of this code, don't worry... it's coming soon!
 - I deliberately wrote this code in a way that would make it as easy as possible for kids to understand what's going on. This means that there’s some deliberate repetition of code blocks so that they can easily compare how the different mazes are built.
 
 ***
