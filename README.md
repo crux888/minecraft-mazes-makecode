@@ -4,12 +4,12 @@ I created this code for my two kids who loving playing with Minecraft and coding
 
 ### Contents 
 - [What mazes can I make?](#what-mazes-can-i-make-with-the-code)
-- How do I import and use the code?
-- How can I change the maze blocks?
-- How does the buildMaze function work?
-- How does the solveMaze function work?
-- How can I buy you a coffee? ☕️
-- Frequently asked questions
+- [How do I import and use the code?](#how-do-i-import-and-use-the-code)
+- [How can I change the maze blocks?](#how-can-i-change-the-maze-blocks)
+- [How does the buildMaze function work?](#how-does-the-buildmaze-function-work)
+- [How does the solveMaze function work?](#how-does-the-solvemaze-function-work)
+- [How can I buy you a coffee?](#how-can-i-buy-you-a-coffee) ☕️
+- [Frequently asked questions](#frequently-asked-questions)
 
 ### Notes
 - This code can be used with [Minecraft Education Edition](https://minecraft.makecode.com/setup/minecraft-education-edition) or [Minecraft for Windows 10](https://minecraft.makecode.com/setup/minecraft-windows10).
@@ -108,9 +108,11 @@ If you’re looking for some fun, try racing the maze solver (or your friends) b
 
 *** 
 
-## How can I buy you a coffee? ☕️
+## How can I buy you a coffee? 
 
-If you find this code useful or inspiring, then feel free to **[buy me a coffee](https://www.buymeacoffee.com/crux)** (or two, or three). Muchos gracias in advance! 😊
+☕️ If you find this code useful or inspiring, then feel free to **[buy me a coffee](https://www.buymeacoffee.com/crux)** (or two, or three). 
+
+😊 Many thanks in advance! 
 
 ***
 
