@@ -1,6 +1,6 @@
-# Minecraft Mazes (MakeCode)
+# Minecraft Mazes (MakeCode/Python)
 
-I created this code for my two kids who loving playing with Minecraft and coding with Scratch. So, when [Microsoft made Minecraft Education Edition available to parents](https://education.minecraft.net/en-us/get-started/parents?utm_source=github-minecraft-mazes-makecode), it seemed like a perfect opportunity to show them how [MakeCode](https://minecraft.makecode.com/setup) can be used to create (and solve) random mazes.
+I created this code for my two kids who loving playing with Minecraft and coding with Scratch. So, when [Microsoft made Minecraft Education Edition available to parents](https://education.minecraft.net/en-us/get-started/parents?utm_source=github-minecraft-mazes), it seemed like a perfect opportunity to show them how [MakeCode](https://minecraft.makecode.com/setup) or [Python](https://education.minecraft.net/en-us/resources/computer-science-subject-kit/python-101) can be used to create (and solve) random mazes.
 
 ### Contents 
 - [What mazes can I make?](#what-mazes-can-i-make-with-the-code)
@@ -13,7 +13,6 @@ I created this code for my two kids who loving playing with Minecraft and coding
 
 ### Notes
 - This code can be used with [Minecraft Education Edition](https://minecraft.makecode.com/setup/minecraft-education-edition) or [Minecraft for Windows 10](https://minecraft.makecode.com/setup/minecraft-windows10).
-- If you're looking for a Minecraft Python version of this code, don't worry... it's coming soon!
 - I deliberately wrote this code in a way that would make it as easy as possible for kids to understand what's going on. This means that there’s some deliberate repetition of code blocks so that they can easily compare how the different mazes are built.
 
 ***
@@ -24,6 +23,8 @@ I created this code for my two kids who loving playing with Minecraft and coding
 - A tower maze with [n] rows x [n] columns x [n] layers
 - A pyramid maze with [n] layers
 - A diamond maze with [n] layers
+
+![Minecraft mazes](https://user-images.githubusercontent.com/88885429/143773500-601975f3-614e-4493-b8c2-215c22fa4bd4.png)
 
 ***
 
@@ -49,6 +50,8 @@ By default, the code will build the maze and then try to solve it. You can’t b
   - `initialiseTowerVariables`
   - `initialisePyramidVariables`
   - `initialiseDiamondVariables`
+
+![Minecraft mazes](https://user-images.githubusercontent.com/88885429/143773358-dcded96b-eefa-4340-881f-48645a093ea2.png)
 
 ***
 
