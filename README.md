@@ -119,6 +119,8 @@ If you’re looking for some fun, try racing the maze solver (or your friends) b
 
 **Could the code be improved?** Sure, it could probably be a bit shorter in places but I wanted to make it easy for kids to understand what's going on.
 
+**Can the code be converted from Python to Blocks or Javascript?** Sure. Just create a new `Blocks, Javascript, and Python` project in MakeCode, switch to the Python view, paste the Python code from [here](link), and then switch back to Blocks or Javascript view. However, please note that MakeCode messes up the Python code (and especially the comments) if you try to switch back again from the Blocks or Javascript view.
+
 ***
 
 ## How can I buy you a coffee? 
