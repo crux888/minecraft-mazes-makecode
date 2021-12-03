@@ -1,9 +1,9 @@
 # Minecraft Mazes (MakeCode/Python)
 
-I created this code for my two kids who loving playing with Minecraft and coding with Scratch. So, when [Microsoft made Minecraft Education Edition available to parents](https://education.minecraft.net/en-us/get-started/parents?utm_source=github-minecraft-mazes), it seemed like a perfect opportunity to show them how [MakeCode](https://minecraft.makecode.com/setup) or [Python](https://education.minecraft.net/en-us/resources/computer-science-subject-kit/python-101) can be used to create (and solve) random mazes.
+I created this code for my two kids who loving playing with Minecraft and coding with Scratch. So, when [Microsoft made Minecraft Education Edition available to parents](https://education.minecraft.net/en-us/get-started/parents?utm_source=github-minecraft-mazes), it seemed like a perfect opportunity to show them how [MakeCode](https://www.microsoft.com/en-us/makecode) can be used to create and solve random mazes.
 
 ### Contents 
-- [What mazes can I make?](#what-mazes-can-i-make-with-the-code)
+- [What mazes can I make?](#what-mazes-can-i-make)
 - [How do I import and use the code?](#how-do-i-import-and-use-the-code)
 - [How can I change the maze blocks?](#how-can-i-change-the-maze-blocks)
 - [How does the buildMaze function work?](#how-does-the-buildmaze-function-work)
@@ -13,11 +13,11 @@ I created this code for my two kids who loving playing with Minecraft and coding
 
 ### Notes
 - This code can be used with [Minecraft Education Edition](https://minecraft.makecode.com/setup/minecraft-education-edition) or [Minecraft for Windows 10](https://minecraft.makecode.com/setup/minecraft-windows10).
-- I deliberately wrote this code in a way that would make it as easy as possible for kids to understand what's going on. This means that there’s some deliberate repetition of code blocks so that they can easily compare how the different mazes are built.
+
 
 ***
 
-## What mazes can I make with the code?
+## What mazes can I make?
 
 - A **simple maze** with [n] rows x [n] columns
 - A **tower maze** with [n] rows x [n] columns x [n] layers
@@ -30,42 +30,36 @@ I created this code for my two kids who loving playing with Minecraft and coding
 
 ## How do I import and use the code?
 
-- Load [Minecraft Education Edition](https://minecraft.makecode.com/setup/minecraft-education-edition) or [Minecraft for Windows 10](https://minecraft.makecode.com/setup/minecraft-windows10).
+- Launch [Minecraft Education Edition](https://minecraft.makecode.com/setup/minecraft-education-edition) or [Minecraft for Windows 10](https://minecraft.makecode.com/setup/minecraft-windows10).
 - Create a new world or join an existing one.
-- Open the Code Builder window.
+- Open the Code Builder window (by pressing "C").
 - Import the code using this URL: `link`
-- Close the Code Builder window.
-- Open the Chat and Commands window.
+- Close the Code Builder window (or press the green "Play" button).
+- Open the Chat and Commands window (by pressing "T").
 - Type `maze 5 5` for a simple maze with 10 rows and 10 columns.
 - Type `tower 5 5 5` for a tower maze with 5 rows, 5 columns, and 5 maze layers.
 - Type `pyramid 5` for a pyramid maze with 5 maze layers.
 - Type `diamond 5` for a diamond maze with 5 maze layers.
 
-By default, the code will build the maze and then try to solve it. You can’t build a second maze until it’s finished solving the first one, as the code is still running. If you’re feeling impatient and you want to build lots of mazes quickly, then you have two options:
+By default, the code will build the maze and then solve it. You can’t build a second maze until it’s finished solving the first one, as the code is still running. If you’re feeling impatient and you want to build lots of mazes quickly, then you have two options:
 
-- **Option 1:** Open and the close the Code Builder window. This will stop the current code from running and you can then start building a new maze. However, it sometimes takes a few seconds after closing the Code Builder window until Minecraft is actually ready to run the code.
+- **Option 1:** Open and then close the Code Builder window. This will stop the current code from running and you can then start building a new maze. However, it sometimes takes a few seconds after closing the Code Builder window until Minecraft is actually ready to run the code.
 
-- **Option 2:** Open the Code Builder window and change the `solve_maze` variable to `false` in one or more of the following functions:
-  - `initialiseMazeVariables`
-  - `initialiseTowerVariables`
-  - `initialisePyramidVariables`
-  - `initialiseDiamondVariables`
-
-![Minecraft mazes](https://user-images.githubusercontent.com/88885429/143773358-dcded96b-eefa-4340-881f-48645a093ea2.png)
+- **Option 2:** Open the Code Builder window and change the `solve_maze` variable to `false` at the top of the code.
 
 ***
 
 ## How can I change the maze blocks?
 
-You can experiment with different styles of mazes by changing the `wall_block` variable in the following functions:
-- `initialiseMazeVariables`
-- `initialiseTowerVariables`
-- `initialisePyramidVariables`
-- `initialiseDiamondVariables`
+You can experiment with different styles of mazes by changing the following variables at the top of the code:
+- `maze_blocks`
+- `tower_blocks`
+- `pyramid_blocks`
+- `diamond_blocks`
 
 Try building mazes out of wood, stone, bricks, slime, or even glass. However, beware of trying to build mazes from sand or vegetation, as they will collapse or change shape. Also, building a maze from ice is not a great idea if you then put torches inside... 
 
-If you want to experiment with really large mazes, you can change the `maze_size_maximum` variables in the above functions. Just be careful when building large mazes close to things that your kids have spent hours creating, as the mazes will destroy everything in their path... 🦖
+If you want to experiment with really large mazes, you can change the `maximum_maze_rows_columns` and `maximum_maze_layers` variables at the top of the code. Just be careful when building large mazes close to things that your kids have spent hours creating, as the mazes will destroy everything in their path... 🦖
 
 ***
 
@@ -95,7 +89,9 @@ You can learn more about the recursive backtracker algorithm (and many other won
 
 The mazes are solved using a simple **left hand on the wall algorithm**. 
 
-Imagine that you’re in the maze and that it’s dark with no torches. You must keep your left hand on the wall at all times by following these simple rules:
+Imagine that you’re in the maze and that it’s dark with no torches... 
+
+Now, you must keep your left hand on the wall at all times by following these simple rules:
 
 - If you can turn left, then turn left.
 - If you can’t turn left but you can go straight ahead, then go straight ahead.
@@ -113,17 +109,15 @@ If you’re looking for some fun, try racing the maze solver (or your friends) b
 
 ## Frequently asked questions
 
-**What’s the most difficult maze to solve?**
-A glass maze with no torches. Seriously, try it…
+**What’s the most difficult maze to solve?** A glass maze with no torches. Seriously, try it…
 
-**Can I use the code with my students in a lesson?**
-Please, please do. You can have a lot of fun talking about how the mazes are built and solved without needing to understand every line of code.
+**Can I use the code with my students in a lesson?** Please, please do. You can have a lot of fun talking about how the mazes are built and solved without needing to understand every line of code.
 
-**Can I share the code with others?**
-Sure. Please give them the link to this GitHub page and then they’ll always be able to download the latest version with any updates.
+**Can I share the code with others?** Sure. Please give them the link to this GitHub page and then they’ll always be able to download the latest version with any updates.
 
-**Can I modify the code slightly, call it my own, and then sell it?**
-Er, no. Please read the license. ✌️
+**Can I modify the code slightly, call it my own, and then sell it?** Er, no. Please read the license. ✌️
+
+**Could the code be improved?** Sure, it could probably be a bit shorter in places but I wanted to make it easy for kids to understand what's going on.
 
 ***
 
