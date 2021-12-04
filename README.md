@@ -24,9 +24,7 @@ I created this code for my two kids who loving playing with Minecraft and coding
 - A **pyramid maze** with [n] layers
 - A **diamond maze** with [n] layers
 
-![Minecraft mazes](https://user-images.githubusercontent.com/88885429/143773500-601975f3-614e-4493-b8c2-215c22fa4bd4.png)
-
-https://user-images.githubusercontent.com/88885429/144660677-8ca10633-f4f6-452e-af41-9b5f0b435f5d.mov
+[![Minecraft Mazes](https://user-images.githubusercontent.com/88885429/144701030-7c25f026-e495-4a79-96c4-d25d922f3136.png)](https://youtu.be/dIAoOc1XKLQ)
 
 ***
 
