@@ -40,7 +40,7 @@ searched_steps = 0
 solution_steps = 0
 path_block = LIME_CARPET
 maximum_maze_rows_columns = 25
-maximum_maze_layers = 1
+maximum_maze_layers = 10
 minimum_maze_rows_columns = 3
 minimum_maze_layers = 3
 
