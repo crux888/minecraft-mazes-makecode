@@ -33,7 +33,7 @@ I created this code for my two kids who loving playing with Minecraft and coding
 - Launch [Minecraft Education Edition](https://minecraft.makecode.com/setup/minecraft-education-edition) or [Minecraft for Windows 10](https://minecraft.makecode.com/setup/minecraft-windows10).
 - Create a new world or join an existing one.
 - Open the Code Builder window (by pressing "C").
-- Import the code using this URL: `https://makecode.com/_RpJh6hXqvfa2`
+- Import the code using this URL: `https://makecode.com/_Cx12LwfTebbL`
 - Close the Code Builder window (or press the green "Play" button).
 - Open the Chat and Commands window (by pressing "T").
 - Type `maze 5 5` for a simple maze with 10 rows and 10 columns.
@@ -119,7 +119,7 @@ If you’re looking for some fun, try racing the maze solver (or your friends) b
 
 **Could the code be improved?** Sure, it could probably be a bit shorter in places but I wanted to make it easy for kids to understand what's going on.
 
-**Can the code be converted from Python to Blocks or Javascript?** Sure. Just create a new `Blocks, Javascript, and Python` project in MakeCode, switch to the Python view, paste the Python code from [here](https://makecode.com/_RpJh6hXqvfa2), and then switch back to Blocks or Javascript view. However, please note that MakeCode messes up the Python code (and especially the comments) if you try to switch back again from the Blocks or Javascript view.
+**Can the code be converted from Python to Blocks or Javascript?** Sure. Just create a new `Blocks, Javascript, and Python` project in MakeCode, switch to the Python view, paste the Python code from [here](https://makecode.com/_Cx12LwfTebbL), and then switch back to Blocks or Javascript view. However, please note that MakeCode messes up the Python code (and especially the comments) if you try to switch back again from the Blocks or Javascript view.
 
 ***
 
